@@ -85,4 +85,11 @@ h3 { margin: 0 0 8px; }
 
 .small { color: var(--muted); font-size: 14px; }
 
+.bio-photo {
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
 .site-footer { padding: 24px 0 40px; text-align: center; color: var(--muted); }
