@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U.S. Citizenship Exam Tutoring | Prepare with Confidence</title>
+  <meta name="description" content="Personal tutoring for the U.S. Citizenship (Naturalization) Exam. Prepare with confidence. Pass with ease." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <meta property="og:title" content="U.S. Citizenship Exam Tutoring" />
+  <meta property="og:description" content="Prepare with confidence. Pass with ease." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>🇺🇸 U.S. Citizenship Exam Tutoring</h1>
+      <p class="tagline">Prepare with Confidence. Pass with Ease.</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / CTA -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h2>One-on-one guidance for your Naturalization interview</h2>
+          <ul class="checklist">
+            <li>Civics questions: practice with smart drills</li>
+            <li>English reading & writing: targeted practice</li>
+            <li>Interview coaching: what to expect and how to answer</li>
+          </ul>
+          <a href="#contact" class="btn">Book a free intro chat</a>
+        </div>
+        <div class="card">
+          <h3>Important</h3>
+          <p><strong>All lessons will be in English as your exam will be.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comprehensive lesson plan -->
+    <section id="plan" class="section">
+      <div class="container">
+        <h2>Comprehensive Lesson Plan</h2>
+        <ol class="plan">
+          <li><strong>Assessment & Goals:</strong> quick diagnostic of civics/English level, set timeline.</li>
+          <li><strong>Civics Mastery:</strong> 100 questions with spaced-repetition practice and mock quizzes.</li>
+          <li><strong>English Skills:</strong> reading cards, writing sentences, pronunciation and clarity.</li>
+          <li><strong>Interview Simulation:</strong> practice N-400 style questions, common follow-ups, body language.</li>
+          <li><strong>Final Review:</strong> confidence run-through, documents checklist, test-day tips.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <h2>Pricing</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Private Tutoring</h3>
+            <p class="price">$50 / hour</p>
+            <p>Flexible scheduling. Personalized plan and homework.</p>
+          </div>
+          <div class="card">
+            <h3>Group Class</h3>
+            <p class="price">$30 / hour</p>
+            <p>Small groups for accountability and practice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About the Instructor</h2>
+        <p>Hi, I’m Dan. I was born overseas but became a naturalized U.S. citizen after going through the process myself — without a tutor or dedicated help — and realized how valuable it would have been to have someone guide me through it. I’m college and graduate school educated in the United States, and I’m passionate about helping others succeed in this journey.</p>
+        <p>That’s why I created this in-person tutoring service: to help others who are on the same path. Each session is designed to make the process easier and to give you the confidence you need to pass your naturalization test. My goal is to share practical tips, answer your questions, and provide personal guidance every step of the way.</p>
+      </div>
+    </section>
+
+    <!-- Contact (Netlify Forms) -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <form name="contact" method="POST" data-netlify="true" class="form">
+          <input type="hidden" name="form-name" value="contact" />
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell me your timeline and goals"></textarea>
+          </label>
+          <button type="submit" class="btn">Send</button>
+        </form>
+        <p class="small">You’ll get a response within 24 hours.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> U.S. Citizenship Exam Tutoring</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
